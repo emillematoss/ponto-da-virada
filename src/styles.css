@@ -270,7 +270,7 @@
 .pv-hero-note svg { color:var(--pv-gold); }
 .pv-portal { position:relative; width:100%; max-width:510px; justify-self:end; aspect-ratio:4/5; overflow:hidden; border:1px solid rgba(220,183,119,.6); border-radius:230px 230px 8px 8px; }
 .pv-portal img { width:100%; height:100%; display:block; object-fit:cover; object-position:center center; }
-.pv-portal:after { content:""; position:absolute; inset:12px; border:1px solid rgba(238,207,148,.48); border-radius:220px 220px 3px 3px; pointer-events:none; }
+.pv-portal:after { content:""; position:absolute; inset:12px; border:1px solid rgba(238,207,148,.48); border-radius:218px 218px 0 0; pointer-events:none; }
 .pv-portal-caption { position:absolute; left:0; right:0; bottom:26px; text-align:center; color:#fff2d7; font-size:10px; letter-spacing:.22em; line-height:1.8; text-shadow:0 2px 14px #16050b; z-index:2; }
 .pv-portal-caption b { color:var(--pv-gold-soft); font-size:14px; letter-spacing:.25em; }
 .pv-scroll { position:absolute; bottom:22px; left:50%; transform:translateX(-50%); color:var(--pv-gold); }
@@ -293,7 +293,8 @@
 .pv-feature h3,.pv-step h3 { font-size:22px; line-height:1.2; font-weight:600; margin:0 0 12px; color:var(--pv-wine-deep); }
 .pv-feature p,.pv-step p { color:#65565a; font-size:14px; line-height:1.8; margin:0; }
 .pv-process { padding:clamp(70px,8vw,108px) clamp(24px,9vw,140px); background:var(--pv-cream); }
-.pv-process h2 { max-width:700px; margin-bottom:42px; }
+.pv-process h2 { max-width:760px; margin-bottom:20px; }
+.pv-process-intro { max-width:760px; margin:0 0 42px; color:#65565a; font-size:16px; line-height:1.85; }
 .pv-steps { max-width:960px; border-top:1px solid rgba(104,29,51,.18); }
 .pv-step { display:grid; grid-template-columns:72px 1fr; gap:22px; padding:26px 0; border-bottom:1px solid rgba(104,29,51,.18); }
 .pv-step-number { font-family:"Cormorant Garamond",serif; font-size:30px; color:var(--pv-gold); }
@@ -326,6 +327,7 @@
 .pv-price-card { width:min(100%,560px); padding:38px clamp(24px,5vw,52px); text-align:center; background:linear-gradient(155deg,#32121f,#4a1a2d 65%,#2a101b); color:var(--pv-ivory); border:1px solid rgba(213,173,102,.72); box-shadow:0 24px 70px rgba(51,16,30,.2); position:relative; }
 .pv-price-card:before { content:""; position:absolute; inset:8px; border:1px solid rgba(213,173,102,.2); pointer-events:none; }
 .pv-price-kicker { color:var(--pv-gold-soft); display:block; text-align:center; font-size:10px; letter-spacing:.18em; font-weight:800; }
+.pv-payment-note { display:table; margin:10px auto 2px; padding:5px 11px; border:1px solid rgba(213,173,102,.35); border-radius:99px; color:rgba(248,239,222,.72); font-size:9px; letter-spacing:.16em; font-weight:700; }
 .pv-old-price { margin:22px 0 0; color:rgba(248,239,222,.72); font-size:14px; text-align:center; }
 .pv-price { color:var(--pv-gold-soft); font-size:clamp(92px,11vw,124px); line-height:.98; margin:10px auto 8px; text-align:center; font-weight:600; text-shadow:0 3px 24px rgba(213,173,102,.2); }
 .pv-price span:first-child { font-family:Karla,sans-serif; font-size:20px; vertical-align:top; margin-right:6px; }
