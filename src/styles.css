@@ -269,7 +269,7 @@
 .pv-hero-note span { display:inline-flex; align-items:center; gap:6px; }
 .pv-hero-note svg { color:var(--pv-gold); }
 .pv-portal { position:relative; width:100%; max-width:510px; justify-self:end; aspect-ratio:4/5; overflow:hidden; border:1px solid rgba(220,183,119,.6); border-radius:230px 230px 8px 8px; }
-.pv-portal img { width:100%; height:100%; display:block; object-fit:cover; object-position:center; }
+.pv-portal img { width:100%; height:100%; display:block; object-fit:cover; object-position:100% center; }
 .pv-portal:after { content:""; position:absolute; inset:12px; border:1px solid rgba(238,207,148,.48); border-radius:220px 220px 3px 3px; pointer-events:none; }
 .pv-portal-caption { position:absolute; left:0; right:0; bottom:26px; text-align:center; color:#fff2d7; font-size:10px; letter-spacing:.22em; line-height:1.8; text-shadow:0 2px 14px #16050b; z-index:2; }
 .pv-portal-caption b { color:var(--pv-gold-soft); font-size:14px; letter-spacing:.25em; }
@@ -312,8 +312,8 @@
 .pv-fit-no { padding:22px 24px; border-left:3px solid var(--pv-gold); background:rgba(104,29,51,.045); }
 .pv-fit-no p { color:#65565a; font-size:14px; line-height:1.8; margin:0; }
 .pv-bonus { position:relative; display:grid; grid-template-columns:minmax(220px,.72fr) minmax(0,1.2fr) auto; align-items:center; gap:clamp(24px,5vw,64px); padding:58px clamp(24px,9vw,140px); color:var(--pv-ivory); overflow:hidden; }
-.pv-bonus-art { width:100%; max-width:270px; aspect-ratio:4/5; overflow:hidden; border:1px solid rgba(220,183,119,.55); border-radius:4px; box-shadow:0 18px 48px rgba(0,0,0,.3); }
-.pv-bonus-art img { width:100%; height:100%; display:block; object-fit:cover; object-position:center; }
+.pv-bonus-art { width:100%; max-width:270px; aspect-ratio:1/1; overflow:hidden; border:1px solid rgba(220,183,119,.55); border-radius:50%; box-shadow:0 18px 48px rgba(0,0,0,.3); background:var(--pv-wine-deep); }
+.pv-bonus-art img { width:398%; max-width:none; height:auto; display:block; object-fit:fill; transform:translate(-16.2%,-48%); }
 .pv-bonus h2 { color:var(--pv-gold-soft); margin:10px 0 12px; }
 .pv-bonus p:not(.pv-eyebrow) { color:rgba(248,239,222,.82); max-width:540px; line-height:1.8; }
 .pv-bonus span { color:rgba(248,239,222,.62); font-size:12px; }
@@ -374,7 +374,7 @@
  .pv-about { padding:64px 24px; }
  .pv-about-photo { width:min(82%,320px); }
  .pv-bonus { grid-template-columns:1fr; padding:48px 24px; gap:24px; }
- .pv-bonus-art { max-width:230px; aspect-ratio:4/3; justify-self:center; }
+ .pv-bonus-art { max-width:230px; aspect-ratio:1/1; justify-self:center; }
  .pv-bonus h2 { font-size:40px; }
  .pv-offer { padding:64px 20px; }
  .pv-price { font-size:68px; }
