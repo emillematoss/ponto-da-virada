@@ -157,7 +157,7 @@ function Index() {
         <div className="pv-two-col">
           <h2>Mais compreensão. Menos tentativa de mudar no escuro.</h2>
           <div>
-            <p className="pv-body-copy">O Ponto da Virada é um convite para olhar para si com curiosidade, responsabilidade e mais consciência.</p>
+            <p className="pv-body-copy">O Ponto da Virada é um convite para olhar para si com profundidade, responsabilidade e mais consciência.</p>
             <ul className="pv-check-list">
               {benefits.map((benefit) => <li key={benefit}><Check size={17} />{benefit}</li>)}
             </ul>
