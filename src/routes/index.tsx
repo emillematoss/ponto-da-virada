@@ -166,7 +166,7 @@ function Index() {
       </section>
 
       <section className="pv-about">
-        <div className="pv-about-monogram">ÊM</div>
+        <div className="pv-about-photo"><img src="/emille-matos.jpg" alt="Êmille Matos, mentora comportamental." /></div>
         <div className="pv-about-content">
           <p className="pv-eyebrow pv-eyebrow-light">QUEM VAI CONDUZIR SUA EXPERIÊNCIA</p>
           <h2>Prazer, sou Êmille Matos.</h2>
