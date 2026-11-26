@@ -204,7 +204,7 @@ function Index() {
         <div className="pv-bonus-art"><img src="/bussola-2027.png" alt="Detalhe de uma bússola dourada sobre fundo bordô." /></div>
         <div>
           <p className="pv-eyebrow pv-eyebrow-light">BÔNUS ESPECIAL DE LANÇAMENTO</p>
-          <h2>Bússola 2027</h2>
+          <h2>A<br />BÚSSOLA 2027</h2>
           <p>Uma experiência complementar para ajudar você a olhar para seus próximos passos e objetivos com mais intenção.</p>
           <span>As orientações de acesso estarão disponíveis na área de membros.</span>
         </div>
