@@ -360,3 +360,12 @@ body { margin: 0; }
   letter-spacing:.035em;
   white-space:normal;
 }
+
+/* Brand mark: subtle champagne-gold underline */
+.pv-heading-highlight { position:relative; display:inline-block; padding-bottom:.12em; }
+.pv-heading-highlight:after {
+  content:""; position:absolute; left:0; right:0; bottom:-.02em;
+  height:3px; border-radius:100%;
+  background:linear-gradient(90deg,transparent,#b9823e 12%,#f2d69d 48%,#b9823e 86%,transparent);
+  box-shadow:0 2px 9px rgba(218,174,103,.34); transform:skewX(-18deg);
+}
