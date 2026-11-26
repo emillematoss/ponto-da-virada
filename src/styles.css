@@ -338,3 +338,8 @@ body { margin: 0; }
 .pv-bonus-year { display:none; }
 @media (max-width:900px) { .pv-portal { width:38vw; } .pv-bonus { grid-template-columns:minmax(180px,.8fr) 1.2fr; } }
 @media (max-width:640px) { .pv-portal { width:220px; right:-40px; top:auto; bottom:28px; transform:none; opacity:.92; } .pv-portal-caption { font-size:8px; } .pv-bonus { grid-template-columns:1fr; gap:24px; } .pv-bonus-art { max-width:100%; } }
+
+.pv-about { align-items:center; }
+.pv-about-photo { width:min(100%,360px); aspect-ratio:4 / 5; overflow:hidden; border:1px solid rgba(222,184,113,.62); border-radius:46% 46% 8px 8px; box-shadow:0 18px 55px rgba(0,0,0,.28); }
+.pv-about-photo img { width:100%; height:100%; object-fit:cover; object-position:center 22%; display:block; }
+@media(max-width:640px) { .pv-about-photo { width:min(78%,300px); margin:0 auto 24px; } }
