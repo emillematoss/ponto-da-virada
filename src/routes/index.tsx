@@ -4,13 +4,13 @@ import { ArrowDown, ArrowRight, Check, Clock3, Compass, FileText, Heart, Sparkle
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Ponto da Virada | Êmille Matos" },
+      { title: "PONTO DA VIRADA | Êmille Matos" },
       {
         name: "description",
         content:
           "Uma experiência individual de autoconhecimento comportamental para compreender suas tendências, reconhecer padrões e encontrar um ponto de partida mais consciente para suas mudanças.",
       },
-      { property: "og:title", content: "Ponto da Virada | Êmille Matos" },
+      { property: "og:title", content: "PONTO DA VIRADA | Êmille Matos" },
       {
         property: "og:description",
         content: "Antes de tentar mudar sua vida, compreenda quem está tentando construí-la.",
@@ -73,7 +73,7 @@ function Index() {
             Antes de exigir mais de si, conheça suas tendências, reconheça padrões e encontre um ponto de partida mais consciente para as mudanças que deseja viver.
           </p>
           <a className="pv-button pv-button-gold" href="#oferta">
-            Quero conhecer o Ponto da Virada <ArrowRight size={17} />
+            Quero conhecer o PONTO DA VIRADA <ArrowRight size={17} />
           </a>
           <div className="pv-hero-note">
             <span><Check size={14} /> Individual</span>
@@ -104,8 +104,8 @@ function Index() {
         <div className="pv-dark-orbit" aria-hidden="true" />
         <div className="pv-centered-copy">
           <p className="pv-eyebrow pv-eyebrow-light">UMA NOVA PERSPECTIVA</p>
-          <h2>Você não precisa se tornar outra pessoa para mudar de vida. <em>Precisa começar compreendendo quem você é.</em></h2>
-          <p>Autoconhecimento não resolve tudo por você. Mas pode ajudar a enxergar o que antes passava despercebido — e a fazer escolhas com mais consciência.</p>
+          <h2>Você não precisa se tornar outra pessoa para mudar de vida.<br /><em>Precisa começar compreendendo quem você é.</em></h2>
+          <p>Autoconhecimento não resolve tudo por você. Mas pode ajudar a enxergar o que antes passava despercebido e a fazer escolhas com mais consciência.</p>
         </div>
       </section>
 
@@ -157,7 +157,7 @@ function Index() {
         <div className="pv-two-col">
           <h2>Mais compreensão. Menos tentativa de mudar no escuro.</h2>
           <div>
-            <p className="pv-body-copy">O Ponto da Virada é um convite para olhar para si com profundidade, responsabilidade e mais consciência.</p>
+            <p className="pv-body-copy">O PONTO DA VIRADA é um convite para olhar para si com profundidade, responsabilidade e mais consciência.</p>
             <ul className="pv-check-list">
               {benefits.map((benefit) => <li key={benefit}><Check size={17} />{benefit}</li>)}
             </ul>
@@ -194,7 +194,7 @@ function Index() {
             </div>
             <div className="pv-fit-no">
               <h3>Talvez não seja o que você procura se...</h3>
-              <p>Você busca terapia, diagnóstico clínico, tratamento psicológico ou uma promessa de mudança instantânea. O Ponto da Virada é uma experiência de autoconhecimento comportamental e não substitui acompanhamento profissional de saúde.</p>
+              <p>Você busca terapia, diagnóstico clínico, tratamento psicológico ou uma promessa de mudança instantânea. O PONTO DA VIRADA é uma experiência de autoconhecimento comportamental e não substitui acompanhamento profissional de saúde.</p>
             </div>
           </div>
         </div>
@@ -214,7 +214,7 @@ function Index() {
       <section className="pv-offer" id="oferta">
         <div className="pv-section-label">SUA OPORTUNIDADE DE COMEÇAR</div>
         <p className="pv-offer-intro">Você não precisa esperar ter todas as respostas para começar a se compreender.</p>
-        <h2>Seu Ponto da Virada pode começar agora.</h2>
+        <h2>Seu <span className="pv-heading-highlight">PONTO DA VIRADA</span> pode começar agora.</h2>
         <div className="pv-price-card">
           <span className="pv-price-kicker">CONDIÇÃO ESPECIAL DE LANÇAMENTO</span>
           <p className="pv-old-price">De <s>R$ 297,00</s> por</p>
@@ -230,11 +230,11 @@ function Index() {
             <li><Check size={17} />Bônus Bússola 2027</li>
           </ul>
           <a className="pv-button pv-button-gold pv-button-full" href="#proximo-passo">
-            Quero viver meu Ponto da Virada <ArrowRight size={17} />
+            Quero viver meu PONTO DA VIRADA <ArrowRight size={17} />
           </a>
           <p className="pv-legal-note">Compra protegida pelo direito de arrependimento previsto no artigo 49 do Código de Defesa do Consumidor, no prazo legal de 7 dias a contar da contratação.</p>
         </div>
-        <p className="pv-offer-footnote">A condição de lançamento é especial para esta fase inicial do Ponto da Virada.</p>
+        <p className="pv-offer-footnote">A condição de lançamento é especial para esta fase inicial do PONTO DA VIRADA.</p>
       </section>
 
       <section className="pv-faq pv-section">
@@ -248,8 +248,8 @@ function Index() {
           <details><summary>Onde encontro as orientações e informações do atendimento?</summary><p>As orientações iniciais, o formulário e as informações necessárias para a experiência estarão disponíveis na área de membros da Kiwify.</p></details>
           <details><summary>E se eu não puder participar no horário combinado?</summary><p>As orientações sobre agendamento e reagendamento estarão disponíveis na área de membros. Caso precise, você poderá consultar as instruções por lá.</p></details>
           <details><summary>Quando receberei o bônus Bússola 2027?</summary><p>As informações de acesso e as orientações necessárias para participar do bônus estarão disponíveis na área de membros da Kiwify.</p></details>
-          <details><summary>O Ponto da Virada é terapia?</summary><p>Não. É uma experiência de autoconhecimento comportamental. Não é terapia, diagnóstico clínico ou tratamento psicológico e não substitui o acompanhamento de profissionais de saúde.</p></details>
-          <details><summary>O Ponto da Virada garante que vou mudar meus comportamentos?</summary><p>Não existe promessa de transformação automática. A experiência oferece análise, reflexão e direcionamento inicial para que você possa compreender melhor seus padrões e decidir como deseja agir a partir disso.</p></details>
+          <details><summary>O PONTO DA VIRADA é terapia?</summary><p>Não. É uma experiência de autoconhecimento comportamental. Não é terapia, diagnóstico clínico ou tratamento psicológico e não substitui o acompanhamento de profissionais de saúde.</p></details>
+          <details><summary>O PONTO DA VIRADA garante que vou mudar meus comportamentos?</summary><p>Não existe promessa de transformação automática. A experiência oferece análise, reflexão e direcionamento inicial para que você possa compreender melhor seus padrões e decidir como deseja agir a partir disso.</p></details>
         </div>
       </section>
 
@@ -257,7 +257,7 @@ function Index() {
         <p className="pv-eyebrow pv-eyebrow-light">O PRIMEIRO PASSO É OLHAR PARA VOCÊ</p>
         <h2>Antes de tentar mudar sua vida, aprenda a compreender quem está tentando construí-la.</h2>
         <a className="pv-button pv-button-gold" href="#oferta">Quero começar pelo autoconhecimento <ArrowRight size={17} /></a>
-        <p>Êmille Matos · Ponto da Virada</p>
+        <p>Êmille Matos · PONTO DA VIRADA</p>
       </section>
 
       <footer className="pv-footer">
