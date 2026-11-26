@@ -384,3 +384,28 @@
  .pv-final-cta { padding:68px 24px; }
  .pv-footer { flex-direction:column; text-align:center; align-items:center; }
 }
+
+
+/* Ajustes finos solicitados: enquadramento do portal e respiro do preço */
+.pv-portal img {
+  object-fit: cover;
+  object-position: 68% center;
+  transform: scale(1.16);
+  transform-origin: 68% center;
+}
+.pv-payment-note {
+  font-size: 8px;
+  padding: 4px 10px;
+  margin: 8px auto 10px;
+  letter-spacing: .14em;
+}
+.pv-old-price {
+  margin-top: 12px;
+}
+.pv-price {
+  margin: 12px auto 18px;
+}
+.pv-price-divider {
+  height: 1px;
+  display: block;
+}
