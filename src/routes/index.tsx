@@ -81,10 +81,8 @@ function Index() {
             <span><Check size={14} /> Com acompanhamento</span>
           </div>
         </div>
-        <div className="pv-portal" aria-hidden="true">
-          <div className="pv-portal-ring pv-ring-one" />
-          <div className="pv-portal-ring pv-ring-two" />
-          <div className="pv-portal-light" />
+        <div className="pv-portal" aria-label="Mulher caminhando em direção a um portal iluminado, simbolizando o início de uma nova jornada.">
+          <img src="/images/ponto-de-virada-jornada.png" alt="Mulher de costas, usando conjunto bordô, caminhando em direção a um portal dourado iluminado." />
           <div className="pv-portal-caption">UM NOVO OLHAR<br /><b>COMEÇA EM VOCÊ</b></div>
         </div>
         <a href="#identificacao" className="pv-scroll" aria-label="Rolar para conhecer"><ArrowDown size={17} /></a>
@@ -203,7 +201,7 @@ function Index() {
       </section>
 
       <section className="pv-bonus">
-        <div className="pv-bonus-icon"><Sparkles size={24} /></div>
+        <div className="pv-bonus-art"><img src="/images/bussola-2027.png" alt="Arte da Bússola 2027 em bordô e dourado, com uma bússola e uma peça de xadrez." /></div>
         <div>
           <p className="pv-eyebrow pv-eyebrow-light">BÔNUS ESPECIAL DE LANÇAMENTO</p>
           <h2>Bússola 2027</h2>
