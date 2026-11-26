@@ -112,7 +112,7 @@ function Index() {
       <section className="pv-section pv-experience">
         <div className="pv-section-label">CONHEÇA A EXPERIÊNCIA</div>
         <div className="pv-two-col pv-experience-heading">
-          <h2>O seu Ponto da Virada começa com um olhar mais profundo para você.</h2>
+          <h2>O seu <span className="pv-heading-highlight">PONTO DA VIRADA</span> começa com um olhar mais profundo para você.</h2>
           <p className="pv-body-copy">Uma experiência individual para compreender seu temperamento e suas tendências comportamentais, relacionar essa compreensão à sua realidade e identificar caminhos iniciais para suas mudanças.</p>
         </div>
         <div className="pv-feature-grid">
