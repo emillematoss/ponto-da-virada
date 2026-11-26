@@ -82,7 +82,7 @@ function Index() {
           </div>
         </div>
         <div className="pv-portal" aria-label="Mulher caminhando em direção a um portal iluminado, simbolizando o início de uma nova jornada.">
-          <img src="/images/ponto-de-virada-jornada.png" alt="Mulher de costas, usando conjunto bordô, caminhando em direção a um portal dourado iluminado." />
+          <img src="/ponto-de-virada-jornada.png" alt="Mulher de costas, usando conjunto bordô, caminhando em direção a um portal dourado iluminado." />
           <div className="pv-portal-caption">UM NOVO OLHAR<br /><b>COMEÇA EM VOCÊ</b></div>
         </div>
         <a href="#identificacao" className="pv-scroll" aria-label="Rolar para conhecer"><ArrowDown size={17} /></a>
@@ -166,7 +166,7 @@ function Index() {
       </section>
 
       <section className="pv-about">
-        <div className="pv-about-photo"><img src="/emille-matos.jpg" alt="Êmille Matos, mentora comportamental." /></div>
+        <div className="pv-about-photo"><img src="/emille-matos-q72.jpg" alt="Êmille Matos, mentora comportamental." /></div>
         <div className="pv-about-content">
           <p className="pv-eyebrow pv-eyebrow-light">QUEM VAI CONDUZIR SUA EXPERIÊNCIA</p>
           <h2>Prazer, sou Êmille Matos.</h2>
@@ -201,7 +201,7 @@ function Index() {
       </section>
 
       <section className="pv-bonus">
-        <div className="pv-bonus-art"><img src="/images/bussola-2027.png" alt="Arte da Bússola 2027 em bordô e dourado, com uma bússola e uma peça de xadrez." /></div>
+        <div className="pv-bonus-art"><img src="/bussola-2027.png" alt="Arte da Bússola 2027 em bordô e dourado, com uma bússola e uma peça de xadrez." /></div>
         <div>
           <p className="pv-eyebrow pv-eyebrow-light">BÔNUS ESPECIAL DE LANÇAMENTO</p>
           <h2>Bússola 2027</h2>
