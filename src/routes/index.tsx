@@ -82,7 +82,7 @@ function Index() {
           </div>
         </div>
         <div className="pv-portal" aria-label="Mulher caminhando em direção a um portal iluminado, simbolizando o início de uma nova jornada.">
-          <img src="/ponto-de-virada-jornada.png" alt="Mulher de costas caminhando em direção a um portal dourado iluminado." />
+          <img src="/onto-de-virada-jornada.png" alt="Mulher de costas caminhando em direção a um portal dourado iluminado." />
           <div className="pv-portal-caption">UM NOVO OLHAR<br /><b>COMEÇA EM VOCÊ</b></div>
         </div>
         <a href="#identificacao" className="pv-scroll" aria-label="Rolar para conhecer"><ArrowDown size={17} /></a>
@@ -201,7 +201,7 @@ function Index() {
       </section>
 
       <section className="pv-bonus">
-        <div className="pv-bonus-art"><img src="/bussola-2027.png" alt="Detalhe de uma bússola dourada sobre fundo bordô." /></div>
+        <div className="pv-bonus-art"><img src="/bussola-20271.png" alt="Detalhe de uma bússola dourada sobre fundo bordô." /></div>
         <div>
           <p className="pv-eyebrow pv-eyebrow-light">BÔNUS ESPECIAL DE LANÇAMENTO</p>
           <h2>A<br />BÚSSOLA 2027</h2>
