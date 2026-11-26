@@ -156,9 +156,9 @@ function Index() {
       <section className="pv-section pv-benefits">
         <div className="pv-section-label">O QUE VOCÊ PODE LEVAR DESSA EXPERIÊNCIA</div>
         <div className="pv-two-col">
-          <h2>Mais compreensão. Menos tentativa de mudar no escuro.</h2>
+          <h2>Mais compreensão.<br /><span>Menos tentativa de mudar no escuro.</span></h2>
           <div>
-            <p className="pv-body-copy">O PONTO DA VIRADA é um convite para olhar para si com profundidade, responsabilidade e mais consciência.</p>
+            <p className="pv-body-copy">Entenda suas tendências, reconheça padrões e descubra como seu temperamento influencia a maneira como você pensa, sente e age.</p>
             <ul className="pv-check-list">
               {benefits.map((benefit) => <li key={benefit}><Check size={17} />{benefit}</li>)}
             </ul>
