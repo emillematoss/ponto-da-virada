@@ -24,27 +24,27 @@ export const Route = createFileRoute("/")({
 const steps = [
   {
     number: "01",
-    title: "Você preenche o formulário",
+    title: "Você começa contando sobre você",
     description:
-      "Depois da inscrição, você recebe na área de membros as orientações e o formulário inicial para compartilhar informações importantes sobre você.",
+      "Após a inscrição, você acessa a área de membros e preenche um formulário pensado para reunir informações sobre sua história, suas percepções e aspectos importantes do seu momento atual. É a partir dessas respostas que sua experiência começa a ganhar forma.",
   },
   {
     number: "02",
-    title: "Sua análise é preparada",
+    title: "Sua análise é preparada individualmente",
     description:
-      "Com suas respostas, preparo uma análise individual e um portfólio personalizado sobre seu temperamento e suas tendências comportamentais.",
+      "Eu estudo suas respostas e preparo sua análise de temperamento e um portfólio personalizado, reunindo suas principais tendências comportamentais. Esse material é construído a partir do que você compartilha, não é uma resposta genérica ou um resultado automático.",
   },
   {
     number: "03",
-    title: "Temos nosso encontro",
+    title: "Nosso encontro dá contexto à sua análise",
     description:
-      "Em uma sessão online individual de 60 minutos, apresento seu material, conversamos sobre o que faz sentido na sua realidade e identificamos possibilidades de novos passos.",
+      "Em uma sessão online individual de 60 minutos, caminhamos pelo seu material, conversamos sobre os pontos identificados e relacionamos tudo à sua realidade. É um espaço para aprofundar a compreensão, esclarecer dúvidas e construir um direcionamento inicial.",
   },
   {
     number: "04",
-    title: "Você segue com acompanhamento",
+    title: "Você continua com acompanhamento",
     description:
-      "Depois da sessão, teremos 15 dias de acompanhamento para observar como você está assimilando os pontos trabalhados e apoiar seus primeiros movimentos.",
+      "Depois do encontro, você terá 15 dias de acompanhamento para retomar pontos da conversa, compartilhar percepções e contar com apoio enquanto assimila o que foi trabalhado.",
   },
 ];
 
@@ -141,7 +141,8 @@ function Index() {
 
       <section className="pv-process">
         <div className="pv-section-label">COMO FUNCIONA</div>
-        <h2>Um processo simples, pensado para olhar para você.</h2>
+        <h2>Uma experiência individual, construída a partir de quem você é.</h2>
+        <p className="pv-process-intro">Não é um teste automático nem uma sequência de respostas prontas. É um trabalho de escuta, análise e conversa, que começa com o que você compartilha e ganha profundidade no nosso encontro.</p>
         <div className="pv-steps">
           {steps.map((step) => (
             <article className="pv-step" key={step.number}>
@@ -217,9 +218,9 @@ function Index() {
         <h2>Seu <span className="pv-heading-highlight">PONTO DA VIRADA</span> pode começar agora.</h2>
         <div className="pv-price-card">
           <span className="pv-price-kicker">CONDIÇÃO ESPECIAL DE LANÇAMENTO</span>
+          <span className="pv-payment-note">PAGAMENTO ÚNICO</span>
           <p className="pv-old-price">De <s>R$ 297,00</s> por</p>
           <div className="pv-price"><span>R$</span>97<span>,00</span></div>
-          <p className="pv-price-caption">Pagamento único</p>
           <div className="pv-price-divider" />
           <ul className="pv-check-list pv-price-list">
             <li><Check size={17} />Análise individual de temperamento</li>
